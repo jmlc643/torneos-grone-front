@@ -1,0 +1,111 @@
+.centrar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img{
+  max-height: 100px;
+  width: auto;
+  filter: drop-shadow(0 0 5px white);
+}
+
+.players{
+  margin-left: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.players-title{
+  font-size: 32px;
+}
+
+.player{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.nickname{
+  margin-left: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.username{
+  margin-left: 15px;
+  margin-bottom: 2.5rem;
+  color: rgb(113, 118, 123);
+}
+
+.text-points{
+  margin-left: 15px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.button-plus{
+  border-radius: 15px;
+  background-color: orange;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 100px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-minus{
+  border-radius: 15px;
+  background-color: red;
+  color: #fff;
+  margin-left: 20px;
+  width: 100px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-player-form{
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  margin: 10px 20px 0 0;
+}
+
+.inputs{
+  width: 200px;
+  margin: 10px 20px 0 0;
+  border-radius: 10px;
+  border: solid #232323 2px;
+  background-color: #0c162d;
+}
+
+#profile{
+  width: 400px;
+}
+
+button{
+  margin-top: 20px;
+  display: flex;
+  justify-content: initial;
+  border-radius: 10px;
+  border: solid #232323 2px;
+  width: 10%;
+  background-color: #0c162d;
+}
+
+.text-button{
+  text-align: center;
+  margin-left: 15px;
+}
